@@ -1,0 +1,23 @@
+# .NET Core
+**/[Bb]in/
+**/[Oo]bj/
+**/*.dll
+**/*.exe
+**/*.pdb
+**/*.userprefs
+**/*.log
+**/*.vscode/
+**/*.vs/
+**/*.suo
+**/*.cache
+**/*.tmp
+**/*.user
+**/*.sln.docstates
+*.dotnet-ide/
+*.dotnet-tools.json
+*.snk
+nupkg/
+*.nupkg
+**/.template.config/
+bin/
+obj/
