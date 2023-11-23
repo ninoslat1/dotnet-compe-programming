@@ -8,12 +8,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Spectre.Console" Version="0.48.0" />
-  </ItemGroup>
-
-  <Target Name="PasswordValidator" BeforeTargets="Run">
-    <Exec Command="dotnet run --project PasswordValidator.csproj" />
+  <Target Name="Fibonacci" BeforeTargets="Run">
+    <Exec Command="dotnet run --project Fibonacci.csproj" />
   </Target>
 
 </Project>
