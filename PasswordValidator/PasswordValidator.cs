@@ -11,7 +11,7 @@ namespace PasswordValidator {
 
             if (input is null)
                 {
-                    Console.WriteLine("Error reading input.");
+                    Console.WriteLine("No user input detected");
                     return;
                 }
             
